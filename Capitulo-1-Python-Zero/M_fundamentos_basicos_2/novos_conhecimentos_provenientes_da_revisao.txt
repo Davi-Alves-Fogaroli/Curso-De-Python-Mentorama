@@ -1,0 +1,107 @@
+PYTHON É CASE SENSITYVE, ELE INDENTIFICA SE O CHAR É MINUSCULO OU MAIUSCULO(SÃO DIFERENTES !=)
+
+4 estruturas de dados basicas
+
+(1)LISTAS (mutaveis, dados de diversos tipos)
+(2)TUPLAS (imutaveis, dados de diversos tipos)
+(3)DICIONARIOS (mutaveis, dados de varios tipos)
+(4)CONJUNTOS (mutaveis, elementos únicos{n repete values}, não ordenado)
+
+-------------(1)LISTAS:---------------------
+[CRIAÇÃO]
+- lista = []
+- lista([])
+
+[INDEXAÇÃO] 
+- lista = [2,4,[3,4,5]]
+-          0 1  2=[3,4,5]
+-                  0 1 2
+
+#para acessar a lista
+- print(lista[2])
+>>>[3,4,5]
+- print(lista[2][0])
+>>>3
+
+#STR não podem ter elementos alterados, embora se comportem como listas
+-x = "Dado"
+-x[0] = 'd'
+>>> TypeError: 'str' object does not support item assignment
+
+[RANGE()]
+#não precisa do for para usar o range
+-lista = list(range(0,10,1))
+-print(lista)
+>>>[0,1,2,3,4,5,6,7,8,9]
+
+[.EXTEND()]
+#adiciona elemento a lista, estilo concatenação
+-lista = [0]
+-lista.append([1,2])
+-print(lista)
+>>>[0,[1,2]]
+
+-lista1 = [0]
+-lista1.extend([1,2])
+-print(lista1)
+>>>[0,1,2]
+
+[.INSERT()]
+#adiciona um elemento em uma posição expecifica
+-lista1.insert(1,"numeros")
+-print(lista1)
+>>>[0,"numeros",1,2]
+
+[.POP()  &  .REMUVE()]
+#REMUVE utiliza o nome do valor que quer que retive, ele vasculha a lista da esquerda pra direia e remove o primeiro valor corespondente ao que foi especificado
+
+#POP utiliza o index para RETIRAR o valor
+-lista1.pop(len(lista)-1)
+>>>'2'
+-print(lista1)
+>>>[0,"numeros",1]
+
+[.SORT()]
+#ordena os elementos da lista, se for str ordena alfabeticamente, se for numerico ordena por tamanho
+
+
+-------------(3)DICIONARIO:---------------------
+
+{.GET}
+#pegar um valor passando a chave
+
+-dicionario = {"João": 9}
+-dicionario.get("joão")
+>>>9
+
+#tbm dá para pegar o valor sem o get
+-dicionario["João"]
+
+
+-------------(4)CONJUNTOS:---------------------
+
+#N POSSUEM NOÇÃO DE RDEM, OR ISSO SEUS ELEMENTOS N PODEM SE ACESSADOR POR [], NEM PODEM SER FATIADOS
+
+#SÓ ACEIÃO TIPOS DE DADOS IMUTAVEIS (N ACEITAO, LISTAS NEM DICIONARIO E OUTROS CONJUNTOS (SET) POR EXEMPLO)
+
+-conjunto = {1,3,5,6}
+-print(type(conjunto))
+-print(conjunto)
+>>>set    #tradução set = conjunto
+>>>{6,3,1,5}
+
+
+{CONJUNTO VAZIU}
+
+-conjunto_vaziu = set()
+-dicionario_vaziu = {}
+-print(type(conjunto_vaziu)
+-print(type(dicionario_vaziu))
+>>>set
+>>>dict
+
+{.POP()   &   .REMOVE()}
+
+#NOS CONJUNTOS O POP() SEM PARAMETROS REMOVE O PRIMEIRO ELEMENTO
+# E SE UTILIZA O .REMOVE(2) PARA ROMOVER UM ELEMENTO DE DETERMINADA POSIÇÃO
+

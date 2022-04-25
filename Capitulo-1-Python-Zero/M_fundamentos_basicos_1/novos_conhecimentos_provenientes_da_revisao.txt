@@ -1,0 +1,33 @@
+ESTRUTURAS DE TOMADA DE DECIÇÃO 
+
+
+***IF***
+
+###IN### dentro do if
+
+lista_produtos = ["banana","uva","abacate"]
+
+produto = input("Digite o produto que deseja comprar")
+
+if (produto in lista_produto):
+	print("\n Produto disponivel")
+else:
+	print("\n Produto indisponivel")
+
+
+-------------------------------------------------------------------------
+
+FUNÇÕES METODOS
+
+METODOS: não retorna valores:
+
+-a = print("ola")
+-a
+>>>  
+
+
+FUNÇÕES: retornam valores:
+
+-a = len("ola")
+-a
+>>> 3s
