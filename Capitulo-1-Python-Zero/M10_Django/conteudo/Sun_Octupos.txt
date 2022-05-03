@@ -1,0 +1,36 @@
+"Sun Octopus" sinonimo de efigiencia, agilidade e praticidade
+
+
+1- Irei abordar o registro de funcionarios (especificamente Dev), e disseminação de informação atraves de posts.
+   Ter uma boa organização a respeito dos funcionarios é fundamental para uma empresa (no setor de TI principalmente,
+   pois já é um dos pilares de qualquer grande empresa), posibilitano a identicicação e moitoramento dos contratados de forma mais facil e agil.
+
+2- Estou oferecendo um software simples, inicialmente de gerenciamento de funcionarios(Dev) e diseminaçõe de informação. É um software eficiente, de facil manuseio e
+   com codigo escalavel para a necessidade especifica de uma empresa.
+
+3- 
+
+
+
+4- Algum banco de dados de preferencia do contratante, para melhor integração com algum sistema ja pronto da empresa (caso ele queiram), 
+   deixar a escolha com o pessal de TI do contratante não é problematico, pela facilidade de adaptação do codigo, graças ao django.
+
+5- O proficional responsavel pelo usso da aplicação não necessitama mais do que 5 minutos para entender como usa-la, de tão intuitiva que é 
+   (os prints são das versões de teste, ao ter os meus serviços contratados, os nomes se adequaram a empresa, facilitando a esperiencia de quem o usara),
+   a aplicação pode ser ospedade local mente, com um acesso fisico ao db da empresa (trasendo a grande vantagem de não ficar off-line devido algum problema na rede),
+   e pode tambem ser ospedade em um web, desta forma fica de facil acessivel e os parametros de compatibilidade ficam maleaveis o geram, no entanto é IMPRECINDIVEL 
+   ter python >= v3, e windows >= 10.
+
+6- Na parte superior, teria o nome da empresa e da aplicação, na home na parte inferior os post escolidos pelo adm seriam apresentados.
+
+7- Cadastro, registro, e mecanismo de busca tanto dos funcionarios quanto das linguagens de programaçõa, facil visualização dos post. 
+   Area indicando de forma separada (separando se foi alteração em funcionario, linguagem,alteração a se aplicar ainda) as recente alterações
+
+8- Estar preparado para ajustar a compatibilidade do software com as ferrramentas da empresa contratante, a solução é simples, estudar os publico alvo para preparar
+   meus conhecimento, para realizar a integraçõa, ou saber onde encontrar um terceiro capacitado, o qual posso estrair conhecimento durante a execução da integração e 
+   até ampliar os niveis de compatibilidade devido a algum novo conhecimento adquirido.
+
+9- Uma ferramenta de gerenciamento de times, onde fica facil visualizar qual o lider, e os funcionario que compoem aquele time, e seus objeivos e funçoes.
+   Posterior a ferramenta anterior, pretendo por uma de gerenciamento de progetos (usando conseitos de metodologia ageis).
+   Estas duas expações futuras complementam a ideia do "Sun Octopus" de proporcionar um gerenciamento eficiente, pratico e agil dos funcionarios, essa feramentas iram 
+   levar essa ideia a outro nivel.

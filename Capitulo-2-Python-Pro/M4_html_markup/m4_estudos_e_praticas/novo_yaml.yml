@@ -1,0 +1,7 @@
+formatos:
+- json
+- yaml
+markup_languages:
+- html
+- xml
+- sgml

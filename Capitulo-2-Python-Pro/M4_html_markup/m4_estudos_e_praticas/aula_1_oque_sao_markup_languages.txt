@@ -1,0 +1,13 @@
+*TIPOS DE DADOS 
+	-Estruturados:
+		_Dados tabulares com estrutura muito bem definida, encontrados em tabelas, plainilhas de exel, banco de dados e sempre bem definidos.!
+	-Semi-Estruturados:
+		_São dados em formados padronisados, mas nem sempre esse formato são bem estruturados como um exel por exemplo.
+	-Não Estruturados:
+		_São textos livres que encontramos na internet, dados com diversos elementos misturados.
+	-Mistos:
+		_Dados mistons tem varias coisas, como tags html, trechos de texto estruturados, ex: web scraping 
+
+*computadores tem facilidade de trabalhar com dados estruturados
+
+*Mark up languagens não são linguagens de programação, servem para dar um a semi-estrutura para o texto por exemplo...

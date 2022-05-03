@@ -1,0 +1,10 @@
+endpoints:
+- name: main
+  path: http://127.0.0.1:8000/
+  requests:
+   - name: main
+     path: /
+     method: get
+     tests:
+      - name: 
+        assert:
